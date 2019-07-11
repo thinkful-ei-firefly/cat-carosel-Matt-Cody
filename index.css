@@ -15,6 +15,9 @@ main {
 .hero img {
   height: 100%;
 }
+.thumbnails {
+  display: flex;
+}
 
 .thumbnail {
   display: inline-block;
