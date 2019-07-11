@@ -1,3 +1,8 @@
 $(".thumbnail").on("click", e => {
-  console.log(e.target);
+  const img = e.target;
+  console.log(img.src, img.alt);
+  $(".hero img").attr({
+    src: img.src,
+    alt: img.alt
+  });
 });
